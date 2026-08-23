@@ -7,7 +7,7 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
-nltk.download('punkt_tab', quiet=True)
+
 def transform_text(text):
     text=text.lower()
     text=nltk.word_tokenize(text)
